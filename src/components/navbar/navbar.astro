@@ -24,9 +24,9 @@ const menuitems = [
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-xl"
-          ><span class="font-bold text-blue-600">Integra</span><span
-            class=" text-base text-slate-600">TechSupport</span
+        <a href="/" class="text-3xl"
+          ><span class="font-bold text-itgreen-400">Integra</span><span
+            class="text-xl text-slate-600">TechSupport</span
           >
         </a>
         <div class="block lg:hidden">
@@ -50,7 +50,7 @@ const menuitems = [
                   <li>
                     <a
                       href={item.path}
-                      class="flex lg:px-3 py-2 text-gray-600 hover:text-blue-500">
+                      class="flex lg:px-3 py-2 text-gray-600 text-xl hover:text-itgreen-500">
                       {item.title}
                     </a>
                   </li>
@@ -60,13 +60,13 @@ const menuitems = [
           }
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
-          <Link href="/contact" size="md" block>Let's Talk!</Link>
+          <Link href="/contact" size="md" block>Get in Touch</Link>
         </div>
       </MenuItems>
     </Astronav>
     <div>
       <div class="hidden lg:flex items-center gap-4">
-        <Link href="#" size="md">Let's Talk!</Link>
+        <Link href="/contact" size="md">Get in Touch</Link>
       </div>
     </div>
   </header>

@@ -1,63 +1,77 @@
 ---
 // @ts-ignore
 import { Icon } from "astro-icon";
+import { Image } from "@astrojs/image/components";
+
+// Import SVG icons
+import computerRepair from "assets/icons/computerRepair.svg";
+import dataCenter from "assets/icons/networkStack.svg";
+import signage from "assets/icons/digitalSignage.svg";
+import networkStack from "assets/icons/networkSecure.svg";
+import networkSecure from "assets/icons/networkSecure.svg";
+import pos from "assets/icons/pos.svg";
+import remote from "assets/icons/remote.svg";
+
+const iconPath = "assets/icons/";
 
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "Digital Signage",
     description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
+      "We provide a comprehensive range of service options, including equipment installation, data cabling, network configuration, provisioning, and content creation services.",
+    icon: signage,
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Point-Of-Sale",
     description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
+      "A properly installed and well maintained POS system is a crucial component of your day-to-day operations. We offer staging and installation services, maintenance and repair, upgrades, site surveys, end-user training, and decommssioning.",
+    icon: pos,
   },
   {
-    title: "On-Demand Components",
+    title: "Data Center Support",
     description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
+      "Looking for colocation expertise? We've been around the block a few times. Our CompTIA certified technicians bring the highest quality services in rack mounting hardware, cabling, upgrading servers, relocating, and removing equipment.",
+    icon: dataCenter,
   },
   {
-    title: "Broad Integration",
+    title: "Network Solutions",
     description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
-    icon: "bx:bxs-bot",
+      "We install, de-install, upgrade, troubleshoot, and repair all manner of enterprise network infrastructure, peripherals, cabling and connections.",
+    icon: networkStack,
   },
   {
-    title: "SEO Enabled",
+    title: "Computer Repair",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
+      "Having trouble with your laptop or workstation? Our certified and experienced technicians can help with any computer repair or service need. From broken screens and battery replacements to custom builds and performance upgrades, we give you peace of mind and quick turnaround.",
+    icon: computerRepair,
   },
   {
-    title: "Community",
+    title: "Helpdesk & Remote Support",
     description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
+      "Experience unparalleled professionalism and lightning-fast resolution times. We offer stress-free help desk services that save you time, boost productivity, and improve end-user satisfaction. Our help desk support services are highly flexible, supplimenting your manpower needs and reducing downtime during periods of high volume or short staffing.",
+    icon: remote,
   },
 ];
 ---
-<div>
+<div class="my-12">
   <div class="mt-16 md:mt-0">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to start a website
+      Here's what we offer
     </h2>
     <p class="text-lg mt-4 text-slate-600">
-      Astro comes batteries included. It takes the best parts of state-of-the-art
-      tools and adds its own innovations.
+      Our comprehensive suite of services stands ready to transform your tech challenges into opportunities. Whether it's troubleshooting, installing, upgrading or optimizing, we've got you covered.
     </p>
   </div>
   
-  <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  <div class="grid sm:grid-cols-2 mt-16 gap-16">
     {
       features.map((item) => (
         <div class="flex gap-4 items-start">
-          <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
-            <Icon class="text-white" name={item.icon} />
+          <div class="mt-1 w-16 h-16 shrink-0">
+            <Image 
+              src={item.icon}
+              alt={item.title}
+            />
           </div>
           <div>
             <h3 class="font-semibold text-lg">{item.title}</h3>{" "}

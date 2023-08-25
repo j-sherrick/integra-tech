@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288.4 591.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #00a7f2;
+      }
+
+      .cls-3 {
+        fill: #383838;
+        opacity: .14;
+      }
+
+      .cls-4 {
+        fill: #94a3b0;
+      }
+
+      .cls-5 {
+        fill: #ccc;
+      }
+
+      .cls-6 {
+        fill: #4c5f68;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-5" x="30.11" width="228.2" height="591.14"/>
+      <rect class="cls-1" x="30.1" y="340.18" width="228.2" height="41.75" transform="translate(288.4 722.1) rotate(180)"/>
+      <rect class="cls-1" x="30.1" y="417.25" width="228.2" height="41.75" transform="translate(288.4 876.24) rotate(180)"/>
+      <rect class="cls-1" x="30.1" y="494.32" width="228.2" height="41.74" transform="translate(288.4 1030.38) rotate(180)"/>
+      <rect class="cls-2" x="193.67" y="340.18" width="49.37" height="20.87" transform="translate(436.72 701.22) rotate(180)"/>
+      <rect class="cls-2" x="193.67" y="417.25" width="49.37" height="20.87" transform="translate(436.72 855.37) rotate(180)"/>
+      <rect class="cls-2" x="193.67" y="494.32" width="49.37" height="20.87" transform="translate(436.72 1009.51) rotate(180)"/>
+      <path class="cls-6" d="m30.11,0v591.14H0V30.11c0-8.3,3.38-15.86,8.83-21.27C14.25,3.38,21.81,0,30.11,0Z"/>
+      <path class="cls-6" d="m288.4,591.14h-30.09V.02h0c16.62,0,30.09,13.47,30.09,30.09v561.03Z"/>
+      <rect class="cls-1" x="30.1" y="61.23" width="228.21" height="137.78" transform="translate(288.41 260.24) rotate(180)"/>
+      <path class="cls-2" d="m83.32,199.01h121.76c1.27,0,2.3,1.03,2.3,2.3v14.42h-126.37v-14.42c0-1.27,1.03-2.3,2.3-2.3Z" transform="translate(288.4 414.75) rotate(180)"/>
+      <rect class="cls-5" x="30.11" y="124.69" width="228.23" height="10.87" transform="translate(288.44 260.24) rotate(180)"/>
+      <circle class="cls-2" cx="236.91" cy="158.87" r="4.74"/>
+      <circle class="cls-4" cx="220.88" cy="158.87" r="4.74"/>
+      <rect class="cls-4" x="186.46" y="154.13" width="20.93" height="9.48" transform="translate(393.84 317.74) rotate(180)"/>
+      <path class="cls-3" d="m144.21,0v591.14H0V30.11c0-8.3,3.38-15.86,8.83-21.27C14.25,3.38,21.81,0,30.11,0h114.1Z"/>
+    </g>
+  </g>
+</svg>
