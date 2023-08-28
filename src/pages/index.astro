@@ -9,23 +9,32 @@ import Outline from "@components/outline.astro";
 ---
 
 <Layout title="">
+<div class="hero-bg w-full">
   <Container>
     <Hero />
   </Container>
+</div>
+<Container>
+  <Features>
+    <Fragment slot="heading">
+      Here's what we offer
+    </Fragment>
+    <Fragment slot="text">
+      Our comprehensive suite of services stands ready to transform your tech challenges into opportunities. Whether it's troubleshooting, installing, upgrading or optimizing, we've got you covered.
+    </Fragment>
+  </Features>
+</Container>
   <Container>
     <Outline />
-  </Container>
-  <Container>
-    <Features>
-      <Fragment slot="heading">
-        Here's what we offer
-      </Fragment>
-      <Fragment slot="text">
-        Our comprehensive suite of services stands ready to transform your tech challenges into opportunities. Whether it's troubleshooting, installing, upgrading or optimizing, we've got you covered.
-      </Fragment>
-    </Features>
   </Container>
   <Container>
     <Cta />
   </Container>
 </Layout>
+
+<style>
+  .hero-bg {
+    background-color: #e6f6fe;
+    background-image: url("/assets/img/circuit-board.svg");
+  }
+</style>
