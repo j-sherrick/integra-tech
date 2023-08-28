@@ -14,49 +14,40 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
 <Layout title="About">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">About</Fragment>
-      <Fragment slot="desc">We are a small passionate team.</Fragment>
+      <Fragment slot="title">About Us</Fragment>
+      <Fragment slot="desc">We are a small, dedicated, and passionate team.</Fragment>
     </Sectionhead>
 
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
-      <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Astro.
-      </h2>
-      <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
-      </p>
-    </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
-      {
-        publishedTeamMembers.map((teamMemberEntry) => (
-          <div class="group">
-            <div class="w-full aspect-square">
-              <Picture
-                src={teamMemberEntry.data.avatar.src}
-                alt={teamMemberEntry.data.avatar.alt}
-                sizes="(max-width: 800px) 100vw, 400px"
-                widths={[200, 400]}
-                aspectRatio="1:1"
-                background="#ffffff"
-                fit="cover"
-                position="center"
-                class="w-full rounded-md rounded transition group-hover:-translate-y-1 group-hover:shadow-xl"
-              />
-            </div>
-
-            <div class="mt-4 text-center">
-              <h2 class="text-lg text-gray-800">
-                {teamMemberEntry.data.name}
-              </h2>
-              <h3 class="text-sm text-slate-500">
-                {teamMemberEntry.data.title}
-              </h3>
-            </div>
-          </div>
-        ))
-      }
+    <div class="flex flex-col gap-10 mx-auto max-w-4xl mt-16 text-center">
+      <div>
+        <h2 class="font-bold text-xl md:text-2xl mb-3">
+          Elevating Your Business with Expert Tech Solutions
+        </h2>
+        <p class="text-lg leading-relaxed text-slate-500">
+          Integra Tech Support is more than just a staffing agency; we're your strategic ally in navigating the complexities of technology. 
+          Our commitment is to empower your enterprise with tailored, certified tech solutions that resonate with your unique needs.
+        </p>
+      </div>
+      <div>
+        <h2 class="font-bold text-xl md:text-2xl mb-3">
+          Crafting Success, One Partnership at a Time
+        </h2>
+        <p class="text-lg leading-relaxed text-slate-500">
+          We believe in cultivating relationships that go beyond transactional interactions. With Integra, you're not just a client; 
+          you're a collaborator on the journey to technological excellence. Our bespoke solutions are designed to seamlessly integrate into 
+          your business framework, optimizing processes and enhancing productivity.
+        </p>
+      </div>
+      <div>
+        <h2 class="font-bold text-xl md:text-2xl mb-3">
+          Your Tech Support, Your Way
+        </h2>
+        <p class="text-lg leading-relaxed text-slate-500">
+          We understand that one size doesn't fit all. Integra Tech Support tailors each solution to your unique requirements, ensuring that our expert services 
+          align with your specific business goals. Our diverse suite of offerings is designed to seamlessly adapt to your evolving tech needs, ensuring that your 
+          business stays ahead of the curve.
+        </p>
+      </div>
     </div>
   </Container>
 </Layout>
