@@ -10,16 +10,11 @@ export interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
-const resolvedImageWithDomain = new URL(
-  "/opengraph.jpg",
-  Astro.site
-).toString();
+const resolvedImageWithDomain = new URL("/opengraph.jpg", Astro.site).toString();
 
 const { title } = Astro.props;
 
-const makeTitle = title
-  ? title + " | " + "Integra"
-  : "Integra Tech Support - Tech Support That Speaks Your Language";
+const makeTitle = title ? (title + " | " + "Integra Tech") : "Home | Integra Tech";
 ---
 
 <!DOCTYPE html>
@@ -27,7 +22,7 @@ const makeTitle = title
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon-48.ico" />
     <meta name="generator" content={Astro.generator} />
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
@@ -50,8 +45,10 @@ const makeTitle = title
   </head>
   <body class="text-slate-800">
     <Navbar />
-    <slot />
-    <Footer />
+    <div class="flex flex-col items-center justify-between gap-12 lg:gap-24">
+      <slot />
+      <Footer />
+    </div>
     <style is:global>
       /* Improve Page speed */
       /* https://css-tricks.com/almanac/properties/c/content-visibility/ */

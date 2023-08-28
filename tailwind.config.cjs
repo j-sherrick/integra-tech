@@ -33,8 +33,8 @@ module.exports = {
           900: "#190709",
         },
         'itgreen': {
-          100: "#ccf3e6",
-          200: "#b3ecda",
+          100: "#e6f9f3",
+          200: "#c0f0e0",
           300: "#99e6cd",
           400: "#80e0c1",
           500: "#66b39a",
@@ -54,6 +54,9 @@ module.exports = {
           800: "#332b17",
           900: "#19150c",
         },
+      },
+      backgroundImage: {
+        'radial-blue': "radial-gradient(circle, rgba(0,167,242,0.5) 0%, rgba(153,220,250,0) 40%)",
       }
     }
   },
