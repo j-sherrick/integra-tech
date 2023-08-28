@@ -7,17 +7,29 @@ import ContactForm from "@components/contactform.astro";
     <div class="grid sm:grid-cols-2 gap-10 sm:gap-14">
 
         <!----- ROW 01 COL 01 ----->
-        <div class="heading pb-4 border-l-4 border-itblue-400 pl-4">
-            <h2 class="text-lg lg:text-xl font-semibold text-itblue-400 lg:tracking-tight">
-                Who We Are
-            </h2>
-            <p class="subheading text-xl md:text-3xl font-light text-slate-600">
-                Chicagoland's premiere IT Support company, providing seamless tech solutions tailored to your needs.
-            </p>        
+        <div class="">
+            <div class="heading border-l-4 border-itblue-400 pl-4">
+                <h2 class="text-lg lg:text-xl font-semibold text-itblue-400 lg:tracking-tight">
+                    Who We Are
+                </h2>
+                <p class="subheading text-xl md:text-3xl font-light text-slate-600">
+                    Chicagoland's premiere IT Support company, providing seamless tech solutions tailored to your needs.
+                </p>
+            </div>
+            <div>
+                <!-- <ul>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>One</li>
+                    <li>Two</li>
+                </ul>     -->
+            </div>    
         </div>
-
         <!----- ROW 01-02 COL 02 ----->
-        <div class="contactform px-10">
+        <div class="contactform px-16 row-span-2">
+            <h2 class="text-2xl lg:text-3xl mb-6">
+                Contact us today for a FREE consultation!
+            </h2>
             <ContactForm />
         </div>
         <!----- ROW 01 COL 02 ----->
