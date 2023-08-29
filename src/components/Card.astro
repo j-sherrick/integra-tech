@@ -1,0 +1,29 @@
+---
+import { Image } from "@astrojs/image/components";
+
+interface Props {
+    icon: ImageMetadata,
+    border: boolean,
+    size: "sm" | "md" | "lg",
+    class?: string,
+}
+
+const { 
+    icon,
+    border = false,
+    size = "md",
+    class: className 
+} = Astro.props;
+---
+<div class="flex gap-4 items-start p-6 rounded-lg border border-slate-300">
+    <div class="mt-1 w-16 h-16 shrink-0">
+      <Image
+        src={icon} 
+        alt={icon.title}
+      />
+    </div>
+    <div>
+      <h3 class="font-semibold text-lg">{icon.title}</h3>{" "}
+      <p class="text-slate-500 mt-2 leading-relaxed">{icon.description}</p>
+    </div>
+</div>
