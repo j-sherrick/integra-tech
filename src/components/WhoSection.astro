@@ -2,11 +2,11 @@
 import ContactForm from "@components/ContactForm.astro";
 ---
 
-<section class="py-4 mt-2 lg:mt-10">
-    <div class="grid sm:grid-cols-2 gap-10 sm:gap-14">
+<section class="py-4 mt-4 lg:mt-10">
+    <div class="grid md:grid-cols-2 gap-10 md:gap-14">
 
         <!----- ROW 01 COL 01 ----->
-        <div class="flex flex-col gap-8 items-start">
+        <div class="flex flex-col gap-10 items-start">
             <div class="heading border-l-4 border-itblue-400 pl-4">
                 <h2 class="text-lg lg:text-xl font-semibold text-itblue-400 lg:tracking-tight">
                     Who We Are
@@ -15,11 +15,13 @@ import ContactForm from "@components/ContactForm.astro";
                     Chicagoland's premiere IT Support company, providing exceptional tech solutions tailored to your needs.
                 </p>        
             </div>
-            <div class="bullets pl-10 text-lg md:text-xl">
-                <ul class="benefits text-2xl font-light md:text-3xl list-image-[url(/assets/img/check-fat-duotone.svg)]">
+            <div class="benefits mt-4 ml-6 flex-shrink-0 text-2xl flex justify-center flex-row w-full gap-12 font-light lg:text-3xl">
+                <ul class="list-image-[url(/assets/img/check-fat-duotone.svg)]">
                     <li>Reliable</li>
                     <li>Professional</li>
                     <li>Flexible</li>
+                </ul>
+                <ul class="list-image-[url(/assets/img/check-fat-duotone.svg)]">
                     <li>Affordable</li>
                     <li>Accountable</li>
                     <li>Qualified</li>
