@@ -1,32 +1,35 @@
 ---
 import Container from "@components/Container.astro";
 import Cta from "@components/CallToAction.astro";
-import Features from "@components/Services.astro";
+import Services from "@components/Services.astro";
 import Hero from "@components/Hero.astro";
 import Logos from "@components/Logos.astro";
 import Layout from "@layouts/Layout.astro";
-import Outline from "@components/WhoSection.astro";
+import WhoSection from "@components/WhoSection.astro";
 ---
 
 <Layout title="">
-<div class="hero-bg w-full">
+  <div class="hero-bg w-full">
+    <Container>
+      <Hero />
+    </Container>
+  </div>
+
   <Container>
-    <Hero />
+    <Services>
+      <Fragment slot="heading">
+        What we offer
+      </Fragment>
+      <Fragment slot="text">
+        Our comprehensive suite of services stands ready to transform your tech challenges into opportunities. Whether it's troubleshooting, installing, upgrading or optimizing, we've got you covered.
+      </Fragment>
+    </Services>
   </Container>
-</div>
+
 <Container>
-  <Features>
-    <Fragment slot="heading">
-      What we offer
-    </Fragment>
-    <Fragment slot="text">
-      Our comprehensive suite of services stands ready to transform your tech challenges into opportunities. Whether it's troubleshooting, installing, upgrading or optimizing, we've got you covered.
-    </Fragment>
-  </Features>
+    <WhoSection />
 </Container>
-  <Container>
-    <Outline />
-  </Container>
+
   <Container>
     <Cta />
   </Container>
