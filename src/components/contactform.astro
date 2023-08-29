@@ -106,12 +106,12 @@ import Button from "./ui/button.astro";
       body: new URLSearchParams(formData).toString(),
     })
       .then(() => {
-          result.classList.add("text-green-500");
+          result.classList.add("text-itgreen-500");
           result.innerHTML = "Your information was submitted.";
       })
       .catch((error) => {
         console.log(error);
-        result.classList.add("text-red-500");
+        result.classList.add("text-itred-500");
         result.innerHTML = "Something went wrong!";
       })
       .then(function () {
