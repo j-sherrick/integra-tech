@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 41.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#New_Gradient_Swatch_copy_20);
+      }
+
+      .cls-2 {
+        fill: url(#New_Gradient_Swatch_4);
+      }
+
+      .cls-3 {
+        fill: url(#New_Gradient_Swatch_copy);
+      }
+
+      .cls-4 {
+        fill: url(#New_Gradient_Swatch_copy_13);
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_copy" data-name="New Gradient Swatch copy" x1="0" y1="35.88" x2="64" y2="35.88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5f727a"/>
+      <stop offset="1" stop-color="#4c5f68"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_4" data-name="New Gradient Swatch 4" x1="26.45" y1="35.88" x2="37.56" y2="35.88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_copy_13" data-name="New Gradient Swatch copy 13" x1="6.72" y1="15.46" x2="57.28" y2="15.46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39baf4"/>
+      <stop offset="1" stop-color="#00a7f2"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_copy_20" data-name="New Gradient Swatch copy 20" x1="18.41" y1="16.61" x2="42.67" y2="16.61" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff697a"/>
+      <stop offset="1" stop-color="#f74357"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-3" d="m63.55,38.36l-6.26-7.45-.25-.29c-.21-.25-.52-.39-.85-.39H7.82c-.33,0-.64.14-.85.39l-.26.31L.46,38.36c-.49.57-.6,1.37-.27,2.06.32.69.99,1.11,1.75,1.11h60.14c.76,0,1.42-.43,1.75-1.11.32-.69.21-1.47-.27-2.06Zm-27.1-1.38h-8.89c-.61,0-1.11-.49-1.11-1.11s.49-1.11,1.11-1.11h8.89c.61,0,1.11.49,1.11,1.11s-.49,1.11-1.11,1.11Z"/>
+      <path class="cls-2" d="m36.45,34.77h-8.89c-.61,0-1.11.49-1.11,1.11s.49,1.11,1.11,1.11h8.89c.61,0,1.11-.49,1.11-1.11s-.49-1.11-1.11-1.11Z"/>
+      <path class="cls-4" d="m7.82,30.23h48.36c.32,0,.63.14.85.39l.25.29V2.76c0-1.52-1.23-2.76-2.75-2.76H9.84c-1.72,0-3.12,1.4-3.12,3.12v27.8l.26-.31c.21-.25.52-.39.85-.39Z"/>
+      <path class="cls-1" d="m42.29,10.67c-.21.48-.52.93-.91,1.32-.27.27-.57.51-.9.68-.43.26-.88.43-1.36.52-.31.06-.62.08-.93.07-.32,0-.64-.04-.96-.12-.17-.04-.33-.09-.49-.15l-1.72,1.72-.81.81-.37.37-4.48,4.48-2.41,2.41c.58,1.56.24,3.39-1.01,4.65-1.25,1.25-3.08,1.6-4.64,1.01l2.83-2.83-2.6-2.6-2.83,2.83c-.58-1.56-.24-3.39,1.02-4.65,1.25-1.25,3.08-1.59,4.64-1.01l6.92-6.92.04-.04,2.83-2.83c-.57-1.55-.24-3.35.97-4.6.01-.02.02-.03.04-.04.45-.44.96-.77,1.51-.98,1.01-.4,2.13-.41,3.14-.03l-2.7,2.7-.13.13.21.21,2.39,2.39,2.83-2.83c.4,1.07.37,2.27-.11,3.32Z"/>
+    </g>
+  </g>
+</svg>

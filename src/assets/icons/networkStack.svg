@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510.99 422.47">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 52.91">
   <defs>
     <style>
       .cls-1 {
@@ -22,30 +22,30 @@
   <g id="Layer_1-2" data-name="Layer 1">
     <g>
       <g>
-        <rect class="cls-4" width="510.99" height="129.31"/>
-        <rect class="cls-1" x="62.49" y="29.68" width="277.05" height="65.66"/>
-        <rect class="cls-3" x="97.31" y="29.68" width="207.41" height="12.82"/>
-        <rect class="cls-3" x="97.31" y="56.09" width="207.41" height="12.82"/>
-        <rect class="cls-3" x="97.31" y="82.51" width="207.41" height="12.82"/>
-        <rect class="cls-1" y="129.31" width="510.99" height="17.27"/>
-        <rect class="cls-4" y="146.58" width="510.99" height="129.31"/>
-        <rect class="cls-1" x="62.49" y="176.25" width="277.05" height="65.66"/>
-        <rect class="cls-3" x="97.31" y="176.25" width="207.41" height="12.82"/>
-        <rect class="cls-3" x="97.31" y="202.67" width="207.41" height="12.82"/>
-        <rect class="cls-3" x="97.31" y="229.09" width="207.41" height="12.82"/>
-        <rect class="cls-1" y="275.89" width="510.99" height="17.27"/>
-        <rect class="cls-4" y="293.16" width="510.99" height="129.31"/>
-        <rect class="cls-1" x="62.49" y="322.83" width="277.05" height="65.66"/>
-        <rect class="cls-3" x="97.31" y="322.83" width="207.41" height="12.82"/>
-        <rect class="cls-3" x="97.31" y="349.25" width="207.41" height="12.82"/>
-        <rect class="cls-3" x="97.31" y="375.66" width="207.41" height="12.82"/>
-        <circle class="cls-1" cx="426.47" cy="62.5" r="32.83"/>
-        <circle class="cls-1" cx="426.47" cy="209.08" r="32.83"/>
-        <circle class="cls-1" cx="426.47" cy="355.66" r="32.83"/>
+        <rect class="cls-4" width="64" height="16.2"/>
+        <rect class="cls-1" x="7.83" y="3.72" width="34.7" height="8.22"/>
+        <rect class="cls-3" x="12.19" y="3.72" width="25.98" height="1.61"/>
+        <rect class="cls-3" x="12.19" y="7.03" width="25.98" height="1.61"/>
+        <rect class="cls-3" x="12.19" y="10.33" width="25.98" height="1.61"/>
+        <rect class="cls-1" y="16.2" width="64" height="2.16"/>
+        <rect class="cls-4" y="18.36" width="64" height="16.2"/>
+        <rect class="cls-1" x="7.83" y="22.08" width="34.7" height="8.22"/>
+        <rect class="cls-3" x="12.19" y="22.08" width="25.98" height="1.61"/>
+        <rect class="cls-3" x="12.19" y="25.38" width="25.98" height="1.61"/>
+        <rect class="cls-3" x="12.19" y="28.69" width="25.98" height="1.61"/>
+        <rect class="cls-1" y="34.55" width="64" height="2.16"/>
+        <rect class="cls-4" y="36.72" width="64" height="16.2"/>
+        <rect class="cls-1" x="7.83" y="40.43" width="34.7" height="8.22"/>
+        <rect class="cls-3" x="12.19" y="40.43" width="25.98" height="1.61"/>
+        <rect class="cls-3" x="12.19" y="43.74" width="25.98" height="1.61"/>
+        <rect class="cls-3" x="12.19" y="47.05" width="25.98" height="1.61"/>
+        <circle class="cls-1" cx="53.41" cy="7.83" r="4.11"/>
+        <circle class="cls-1" cx="53.41" cy="26.19" r="4.11"/>
+        <circle class="cls-1" cx="53.41" cy="44.54" r="4.11"/>
       </g>
-      <path class="cls-2" d="m439.68,62.5c0,7.29-5.91,13.2-13.2,13.2s-13.21-5.91-13.21-13.2,5.91-13.2,13.21-13.2,13.2,5.91,13.2,13.2Z"/>
-      <path class="cls-2" d="m439.68,209.08c0,7.29-5.91,13.2-13.2,13.2s-13.21-5.91-13.21-13.2,5.91-13.2,13.21-13.2,13.2,5.91,13.2,13.2Z"/>
-      <path class="cls-2" d="m439.68,355.66c0,7.29-5.91,13.2-13.2,13.2s-13.21-5.91-13.21-13.2,5.91-13.2,13.21-13.2,13.2,5.91,13.2,13.2Z"/>
+      <path class="cls-2" d="m55.07,7.83c0,.91-.74,1.65-1.65,1.65s-1.65-.74-1.65-1.65.74-1.65,1.65-1.65,1.65.74,1.65,1.65Z"/>
+      <path class="cls-2" d="m55.07,26.19c0,.91-.74,1.65-1.65,1.65s-1.65-.74-1.65-1.65.74-1.65,1.65-1.65,1.65.74,1.65,1.65Z"/>
+      <path class="cls-2" d="m55.07,44.54c0,.91-.74,1.65-1.65,1.65s-1.65-.74-1.65-1.65.74-1.65,1.65-1.65,1.65.74,1.65,1.65Z"/>
     </g>
   </g>
 </svg>
