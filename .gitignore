@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # Anything marked as 'old'
 *.old.*
+
+# Unprocessed images
+src/assets/unprocessed
