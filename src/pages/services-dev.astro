@@ -1,0 +1,18 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import Sectionhead from "@components/SectionHead.astro";
+import Features from "@components/Services.astro"
+---
+
+<Layout title="Services">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Our Services</Fragment>
+      <Fragment slot="desc">
+        Everything you need to unravel the complexities of modern technology.
+      </Fragment>
+    </Sectionhead>
+    <Features />
+  </Container>
+</Layout>

@@ -1,0 +1,83 @@
+---
+// @ts-ignore
+import { Image } from "@astrojs/image/components";
+
+// Import SVG icons
+import computerRepair from "assets/icons/computerRepair.svg";
+import dataCenter from "assets/icons/dataCenter.svg";
+import signage from "assets/icons/signage.svg";
+import networkStack from "assets/icons/networkStack.svg";
+import networkSecure from "assets/icons/networkSecure.svg";
+import pos from "assets/icons/pos.svg";
+import remote from "assets/icons/remote.svg";
+
+const iconPath = "assets/icons/";
+
+const features = [
+  {
+    title: "Digital Signage",
+    description:
+      "We provide a comprehensive range of service options, including equipment installation, data cabling, network configuration, provisioning, and content creation services.",
+    icon: signage,
+  },
+  {
+    title: "Point-Of-Sale",
+    description:
+      "A properly installed and well maintained POS system is a crucial component of your day-to-day operations. We offer staging and installation services, maintenance and repair, upgrades, site surveys, end-user training, and decommissioning.",
+    icon: pos,
+  },
+  {
+    title: "Data Center Support",
+    description:
+      "Looking for colocation expertise? Our CompTIA certified technicians bring the highest quality services in rack mounting hardware, cabling, upgrading servers, relocating, and removing equipment.",
+    icon: dataCenter,
+  },
+  {
+    title: "Network Solutions",
+    description:
+      "We install, de-install, upgrade, troubleshoot, and repair all manner of enterprise network infrastructure, peripherals, cabling and connections.",
+    icon: networkSecure,
+  },
+  {
+    title: "Computer Repair",
+    description:
+      "Our certified and experienced technicians can help with any computer repair or service need. From broken screens and battery replacements to custom builds and performance upgrades, we give you peace of mind and quick turnaround.",
+    icon: computerRepair,
+  },
+  {
+    title: "Helpdesk & Remote Support",
+    description:
+      "We offer stress-free help desk services that save you time, boost productivity, and improve end-user satisfaction. Our help desk support services are highly flexible, supplimenting your manpower needs and reducing downtime during periods of high volume or short staffing.",
+    icon: remote,
+  },
+];
+---
+<section class="features pb-6 mt-2 lg:mt-3">
+  <div class="mb-6">
+    <h2 class="text-4xl lg:text-5xl font-bold py-2 lg:tracking-tight">
+      <slot name="heading"></slot>
+    </h2>
+    <p class="text-md md:text-lg py-4 text-slate-600">
+      <slot name="text"></slot>
+    </p>
+  </div>
+  
+  <div class="grid sm:grid-cols-2 mt-6 gap-14">
+    {
+      features.map((item) => (
+        <div class="flex gap-4 items-start p-6 rounded-lg border border-slate-300">
+          <div class="mt-1 w-16 h-16 shrink-0">
+            <Image 
+              src={item.icon}
+              alt={item.title}
+            />
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+            <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>
