@@ -1,16 +1,16 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/Container.astro";
-import { Image } from "@astrojs/image/components";
+import Card from '@components/Card.astro';
 import * as repair from 'content/services/computer-repair.mdx';
 ---
 
 <Layout title="Services">
   <Container>
-    <div class="flex gap-4 items-start p-6 rounded-lg border border-slate-300">
-      <div class="mt-1 w-16 h-16 shrink-0">
-        
-      </div>
-    </div>
+    <Card
+      icon={repair.icon}
+      title={repair.frontmatter.title}
+      description={repair.frontmatter.description}
+    />
   </Container>
 </Layout>

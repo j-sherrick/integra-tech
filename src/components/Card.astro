@@ -1,28 +1,28 @@
 ---
+// Takes service.frontmatter.title, service.frontmatter.description, and service.icon
+
 import { Image } from '@astrojs/image/components'
 interface Props {
     icon: ImageMetadata,
-    border: boolean,
-    size: "sm" | "md" | "lg",
-    class?: string,
+    title: string,
+    description: string,
 }
 
 const { 
     icon,
-    border = false,
-    size = "md",
-    class: className 
+    title,
+    description,
 } = Astro.props;
 ---
 <div class="flex gap-4 items-start p-6 rounded-lg border border-slate-300">
     <div class="mt-1 w-16 h-16 shrink-0">
       <Image
         src={icon} 
-        alt={icon.title}
+        alt={title}
       />
     </div>
     <div>
-      <h3 class="font-semibold text-lg">{icon.title}</h3>{" "}
-      <p class="text-slate-500 mt-2 leading-relaxed">{icon.description}</p>
+      <h3 class="font-semibold text-lg">{title}</h3>{" "}
+      <p class="text-slate-500 mt-2 leading-relaxed">{description}</p>
     </div>
 </div>
