@@ -5,11 +5,8 @@ const servicesCollection = defineCollection({
     schema: z.object({
         title: z.string(),
         description: z.string(),
-        image: z.object({
-            icon: z.string(),
-            cover: z.string(),
-            article: z.string(),
-        })
+        icon: z.string(),
+        jumbotron: z.string(),
     })
 });
 
