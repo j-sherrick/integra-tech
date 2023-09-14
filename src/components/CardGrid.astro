@@ -3,6 +3,18 @@ import Card from "./Card.astro";
 import { getCollection, getEntry } from "astro:content";
 
 const services = await getCollection('services');
-
-
 ---
+
+<div class="grid sm:grid-cols-2 mt-6 gap-14">
+    {
+      services.map((service) => (
+        <div class="flex gap-4 items-start p-6 rounded-lg border border-slate-300">
+            <Card
+                icon={service.data.icon}
+                title={service.data.title}
+                description={service.data.description}
+            />
+        </div>
+      ))
+    }
+  </div>

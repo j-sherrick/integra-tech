@@ -3,7 +3,7 @@
 
 import { Image } from '@astrojs/image/components'
 interface Props {
-    icon: ImageMetadata,
+    icon?: ImageMetadata,
     title: string,
     description: string,
 }
@@ -22,7 +22,7 @@ const {
       />
     </div>
     <div>
-      <h3 class="font-semibold text-lg">{title}</h3>{" "}
+      <h3 class="font-semibold text-lg">{title}</h3>
       <p class="text-slate-500 mt-2 leading-relaxed">{description}</p>
     </div>
 </div>
